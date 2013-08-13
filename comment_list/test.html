@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>ギークバトル　プロトタイプ</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="../vote/js/vote.js"></script>
+</head>
+<body>
+<header><h1>きのこ vs　たけのこ</h1></header>
+<section id="vs">
+	<article>
+		<img id="side1" src="images/takenoko.png" alt="たけのこの画像" width="100px" height="100px"/>
+		VS
+		<img id="side2" src="images/kinoko.png" alt="きのこの画像" width="100px" height="100px"/>
+	</article>
+	<article id="count">
+		<span id="takenoko_count">0015</span>　　　
+		<span id="kinoko_count">0020</span>
+	</article>
+</section>
+<section id="comment_list">
+	<article class="takenoko_comment">
+		<img src="images/takenoko.jpg" alt="たけのこの画像" width="70px" height="70px"/>
+		<div class="comment">
+			<span class="comment_num">No.2</span>
+			<article class="comment_text">
+				<a href="index.html#comment_10">>>1</a><br />
+				きのこさんクッキーまずすぎワロタァｗ
+			</article>
+		</div>
+		<input type="button" value="寝返り" onClick="negaeribtn()" />	
+	</article>
+	<article class="kinoko_comment">
+		<img src="images/kinoko.jpg" alt="たけのこの画像" width="70px" height="70px"/>
+		<div class="comment_right">
+			<span class="comment_num">No.1</span>
+			<article class="comment">
+				きのこの良さはクッキーのバリバリ感！
+			</article>
+		</div>
+	</article>
+</section>
+</body>
+</html>
