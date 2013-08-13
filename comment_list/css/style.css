@@ -45,8 +45,24 @@ h2 {
 	background:url(../images/h2.jpg) no-repeat;
 }
 
-h2 span {
+h2 {
 	display: inline;
+}
+
+h2 span:nth-child(1) {
+	float:left;
+	background-image: url(../images/h2_l.png);
+	min-height: 46px;
+	max-height: 46px;
+	min-width: 334px;
+}
+
+h2 span:nth-child(2) {
+	float:right;
+	background-image: url(../images/h2_r.png);
+	min-height: 46px;
+	max-height: 46px;
+	min-width: 340px;
 }
 
 
